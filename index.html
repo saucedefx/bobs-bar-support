@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob's Bar - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #e0e0e0;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(30, 30, 30, 0.9);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .tagline {
+            color: #a0a0a0;
+            font-size: 1.1em;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #60a5fa;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            background: rgba(96, 165, 250, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background: rgba(96, 165, 250, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #ffffff;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h3 {
+            color: #60a5fa;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #b0b0b0;
+            margin-bottom: 15px;
+        }
+
+        .faq-item {
+            background: rgba(40, 40, 40, 0.5);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border-left: 3px solid #60a5fa;
+        }
+
+        .faq-question {
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .faq-answer {
+            color: #b0b0b0;
+        }
+
+        .contact-box {
+            background: rgba(96, 165, 250, 0.1);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .contact-email {
+            color: #60a5fa;
+            font-size: 1.3em;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-email:hover {
+            text-decoration: underline;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .feature {
+            background: rgba(40, 40, 40, 0.5);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .feature-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #707070;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍸 Bob's Bar</h1>
+            <p class="tagline">Your Premium Cocktail Companion</p>
+        </header>
+
+        <nav>
+            <a href="index.html">Support</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+        </nav>
+
+        <div class="section">
+            <h2>Welcome to Bob's Bar</h2>
+            <p>Bob's Bar is your ultimate cocktail discovery and recipe management app. With over 533 professional cocktail recipes, personalized features, and premium subscription options, you'll never run out of ideas for your next drink.</p>
+
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">📚</div>
+                    <strong>533+ Recipes</strong>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🏠</div>
+                    <strong>MY BAR Filter</strong>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">⭐</div>
+                    <strong>Favorites</strong>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">✏️</div>
+                    <strong>Custom Variations</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">What is Bob's Bar?</div>
+                <div class="faq-answer">Bob's Bar is a premium cocktail discovery app for iOS featuring over 533 professional cocktail recipes. Use the MY BAR feature to see what you can make with ingredients you have, save your favorites, and create custom variations of recipes.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How does the MY BAR feature work?</div>
+                <div class="faq-answer">Add ingredients from your home bar to your inventory, and MY BAR will show you all the cocktails you can make right now. It's the perfect way to discover drinks without needing to buy new ingredients.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What's included in the Premium subscription?</div>
+                <div class="faq-answer">Premium subscribers get unlimited access to custom variations, enhanced MY BAR filtering, priority customer support, and early access to new features. Choose between monthly ($5.99) or annual ($41.99) subscriptions.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I manage my subscription?</div>
+                <div class="faq-answer">Subscriptions are managed through your Apple ID. Go to Settings → [Your Name] → Subscriptions on your iPhone to view, change, or cancel your subscription. You can cancel at any time.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I sign in?</div>
+                <div class="faq-answer">Bob's Bar uses Apple Sign-In for secure, privacy-focused authentication. Simply tap the "Sign in with Apple" button and authorize with Face ID, Touch ID, or your Apple ID password.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Can I create my own cocktail variations?</div>
+                <div class="faq-answer">Yes! Premium subscribers can create unlimited custom variations of any recipe. Modify ingredients, adjust measurements, add your own notes, and save them to your personal collection.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Is my data private?</div>
+                <div class="faq-answer">Absolutely. We take privacy seriously. Your favorites, variations, and inventory are stored securely and never shared with third parties. We don't sell your data, show ads, or track you. See our <a href="privacy.html" style="color: #60a5fa;">Privacy Policy</a> for full details.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What if I have a problem or suggestion?</div>
+                <div class="faq-answer">We'd love to hear from you! Contact us at brandon@theworkworks.net for support, bug reports, or feature suggestions. We typically respond within 24-48 hours.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What's the age requirement?</div>
+                <div class="faq-answer">Bob's Bar is rated 17+ due to alcohol-related content. You must be of legal drinking age in your jurisdiction to use this app. Please drink responsibly.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Can I get a refund?</div>
+                <div class="faq-answer">Refunds are handled through Apple's App Store. To request a refund, visit <a href="https://reportaproblem.apple.com" style="color: #60a5fa;" target="_blank">reportaproblem.apple.com</a> and sign in with your Apple ID. Note that refund policies are determined by Apple.</div>
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <h2>Need Help?</h2>
+            <p style="margin-bottom: 20px;">We're here to help! Contact us with any questions, issues, or feedback.</p>
+            <a href="mailto:brandon@theworkworks.net" class="contact-email">brandon@theworkworks.net</a>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 The Work Works LLC. All rights reserved.</p>
+            <p>Bob's Bar is a product of The Work Works LLC</p>
+        </footer>
+    </div>
+</body>
+</html>
